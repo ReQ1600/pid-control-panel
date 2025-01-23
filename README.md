@@ -1,4 +1,4 @@
-# Tested on Ubuntu 22.04.5 LTS "jammy"
+# Tested on Ubuntu 22.04.5 LTS "jammy" and Windows 10/11
 All libraries used listed in libs.txt
 
 Created to control pid controller from [this repository](https://github.com/ReQ1600/pid-controller-stm32)
