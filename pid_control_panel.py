@@ -113,7 +113,7 @@ class MainWindow(QWidget):
                     print(msg_rx)
                     
         except serial.SerialException as e:
-            print(f"Error: Could not open serial port {port}. {e}")
+            QMessageBox.critical(None, "Port Error", f"Could not open serial port {port}. Please check if given port is correct\n {e}")
         
         
 if __name__ == "__main__":
