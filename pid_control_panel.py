@@ -22,7 +22,8 @@ class MainWindow(QWidget):
         #window settings
         self.setWindowTitle("PID Control Panel")
         self.setGeometry(int(screen_geo.width() * 0.25), int(screen_geo.height() * 0.25), int(screen_geo.width() * 0.25), int(screen_geo.height() * 0.15))
-
+        self.setFixedSize(self.size())
+        
         #layout
         self.master = QVBoxLayout()
 
